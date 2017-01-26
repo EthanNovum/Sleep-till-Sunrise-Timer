@@ -1,10 +1,13 @@
+# credit to google, sunrise-sunset.org, timezonedb.com for the free API
+
 import urllib
 import json
 from datetime import date
 from datetime import datetime
 import time
 
-key = 'N84X8S87EZ51'
+key = 'somekey'
+# get the key by registering at timezonedb.com
 
 locationurl = 'http://maps.googleapis.com/maps/api/geocode/json?'
 sunriseurl = 'http://api.sunrise-sunset.org/json?'
